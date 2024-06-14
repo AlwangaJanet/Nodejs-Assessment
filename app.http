@@ -1,0 +1,13 @@
+# add a product
+POST  http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "name":"Perfume",
+    "price":300
+}
+
+#####
+
+# search product
+GET http://localhost:4000/products?name=butter
